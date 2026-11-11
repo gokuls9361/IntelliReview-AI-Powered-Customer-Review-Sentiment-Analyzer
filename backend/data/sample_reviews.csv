@@ -1,0 +1,51 @@
+review_id,product_id,product_name,rating,review_text,sentiment,created_at
+REV-001,PROD-PHONE,UltraPhone Pro 15,5,"The camera quality is absolutely mind-blowing and the battery lasts two full days. Best smartphone I have ever owned!",Positive,2024-01-05
+REV-002,PROD-PHONE,UltraPhone Pro 15,1,"Extremely disappointed. The screen cracked within two days and customer support was completely unhelpful.",Negative,2024-01-08
+REV-003,PROD-PHONE,UltraPhone Pro 15,3,"It is an okay phone. Good display and fast processor, but the battery backup is quite mediocre for this high price.",Neutral,2024-01-12
+REV-004,PROD-PHONE,UltraPhone Pro 15,5,"Super fast charging and sleek design. The camera shoots stunning photos in low light.",Positive,2024-01-15
+REV-005,PROD-PHONE,UltraPhone Pro 15,2,"Overheats drastically while playing games or recording 4K video. Defective unit maybe?",Negative,2024-01-20
+REV-006,PROD-PHONE,UltraPhone Pro 15,4,"Great build quality and very smooth 120Hz display. The speaker volume could be a little louder though.",Positive,2024-01-25
+REV-007,PROD-PHONE,UltraPhone Pro 15,1,"Worst purchase ever. The phone stopped booting after a software update and warranty service was rejected.",Negative,2024-02-02
+REV-008,PROD-PHONE,UltraPhone Pro 15,3,"Average phone. Nothing special considering the premium cost. Battery lasts just one normal workday.",Neutral,2024-02-10
+REV-009,PROD-PHONE,UltraPhone Pro 15,5,"Incredible performance. The camera zoom and night mode are unbeatable. Highly recommend to creators!",Positive,2024-02-14
+REV-010,PROD-PHONE,UltraPhone Pro 15,2,"Heavy and bulky in hand. The software has annoying bloatware that cannot be uninstalled.",Negative,2024-02-18
+REV-011,PROD-AUDIO,AcousticBass Wireless Headphones,5,"Outstanding noise cancellation! Crystal clear audio with deep punchy bass. Comfortable for 8-hour flights.",Positive,2024-01-07
+REV-012,PROD-AUDIO,AcousticBass Wireless Headphones,1,"Terrible Bluetooth connection. Audio constantly stutters and cuts out every two minutes.",Negative,2024-01-11
+REV-013,PROD-AUDIO,AcousticBass Wireless Headphones,3,"Sound is decent for music, but the microphone quality during Zoom calls sounds muffled and distant.",Neutral,2024-01-18
+REV-014,PROD-AUDIO,AcousticBass Wireless Headphones,5,"The battery life is unreal! I only charge it once a week with daily gym use. Build quality is top tier.",Positive,2024-01-22
+REV-015,PROD-AUDIO,AcousticBass Wireless Headphones,2,"The ear cushions started peeling after one month. Cheap materials used for such an expensive headset.",Negative,2024-02-01
+REV-016,PROD-AUDIO,AcousticBass Wireless Headphones,4,"Very comfortable ear pads and solid active noise cancelling. Could use slightly more treble clarity.",Positive,2024-02-05
+REV-017,PROD-AUDIO,AcousticBass Wireless Headphones,1,"Right ear cup died completely after 3 weeks. Customer support refused refund. Avoid this brand.",Negative,2024-02-12
+REV-018,PROD-AUDIO,AcousticBass Wireless Headphones,3,"It is fine. Does the job, but soundstage is relatively narrow. Nothing exceptional.",Neutral,2024-02-19
+REV-019,PROD-AUDIO,AcousticBass Wireless Headphones,5,"Superb sound quality and effortless pairing with iPhone and Mac simultaneously. Worth every penny.",Positive,2024-02-24
+REV-020,PROD-AUDIO,AcousticBass Wireless Headphones,2,"Too tight on larger heads, caused severe headaches after 30 minutes of listening.",Negative,2024-03-01
+REV-021,PROD-WATCH,FitLife Smart Watch 4,5,"Accurate heart rate monitor, excellent GPS tracking, and battery lasts 5 days. Love the fitness metrics!",Positive,2024-01-10
+REV-022,PROD-WATCH,FitLife Smart Watch 4,1,"Step counter is totally inaccurate, counts hand waving as walking. Companion app crashes incessantly.",Negative,2024-01-16
+REV-023,PROD-WATCH,FitLife Smart Watch 4,3,"Decent fitness tracker. Sleep tracking works fine, but notification sync with Android is hit or miss.",Neutral,2024-01-24
+REV-024,PROD-WATCH,FitLife Smart Watch 4,5,"Sleek design, crisp OLED screen, and very comfortable silicone strap. Great value for athletes.",Positive,2024-02-03
+REV-025,PROD-WATCH,FitLife Smart Watch 4,2,"Water resistance failed in a normal swimming pool. Fogged up screen inside.",Negative,2024-02-09
+REV-026,PROD-WATCH,FitLife Smart Watch 4,4,"Good features for the price. Heart rate is accurate compared to chest strap. Battery could be a bit better.",Positive,2024-02-15
+REV-027,PROD-WATCH,FitLife Smart Watch 4,1,"Screen completely unresponsive after two weeks. Replacement was delayed by over a month.",Negative,2024-02-22
+REV-028,PROD-WATCH,FitLife Smart Watch 4,3,"Standard smartwatch functionality. Battery life is about 36 hours. Neither impressed nor disappointed.",Neutral,2024-03-02
+REV-029,PROD-WATCH,FitLife Smart Watch 4,5,"Brilliant sports modes, seamless Strava sync, and beautiful watch faces. Highly satisfied with purchase!",Positive,2024-03-06
+REV-030,PROD-WATCH,FitLife Smart Watch 4,2,"Slow UI animations and laggy touch response. Feels underpowered.",Negative,2024-03-10
+REV-031,PROD-LAPTOP,PowerBook Ultra 14,5,"Blazing fast M-series performance, gorgeous Retina display, and silent operation. Absolute dream machine.",Positive,2024-01-09
+REV-032,PROD-LAPTOP,PowerBook Ultra 14,1,"Keyboard keys began sticking on the second day. Overpriced laptop with poor quality control.",Negative,2024-01-19
+REV-033,PROD-LAPTOP,PowerBook Ultra 14,3,"Screen and build are fantastic, but limited port selection requires carrying multiple dongles.",Neutral,2024-01-29
+REV-034,PROD-LAPTOP,PowerBook Ultra 14,5,"Battery lasts full 14 hours of programming and browsing. Trackpad is the best in the industry.",Positive,2024-02-08
+REV-035,PROD-LAPTOP,PowerBook Ultra 14,2,"Fan makes high-pitched whining noise under modest workload. Very irritating for quiet office environments.",Negative,2024-02-17
+REV-036,PROD-LAPTOP,PowerBook Ultra 14,4,"Very snappy for software development and video editing. RAM is non-upgradable which is a drawback.",Positive,2024-02-26
+REV-037,PROD-LAPTOP,PowerBook Ultra 14,1,"Motherboard failed within a month. Data recovery was impossible due to soldered SSD.",Negative,2024-03-03
+REV-038,PROD-LAPTOP,PowerBook Ultra 14,3,"Acceptable performance for office work, but runs warmer than advertised.",Neutral,2024-03-08
+REV-039,PROD-LAPTOP,PowerBook Ultra 14,5,"Lightweight, premium aluminum chassis, and stunning color-accurate screen. Worth every single cent.",Positive,2024-03-12
+REV-040,PROD-LAPTOP,PowerBook Ultra 14,2,"Webcam resolution is grainy in low light and speakers lack bass compared to previous generation.",Negative,2024-03-16
+REV-041,PROD-VACUUM,EcoClean Robot Vacuum,5,"Cleans carpets and hardwood floors flawlessly. Smart mapping avoids obstacles reliably. Huge timesaver!",Positive,2024-01-14
+REV-042,PROD-VACUUM,EcoClean Robot Vacuum,1,"Constantly gets stuck under furniture and loses Wi-Fi connection daily. Complete waste of money.",Negative,2024-01-23
+REV-043,PROD-VACUUM,EcoClean Robot Vacuum,3,"Vacuum suction is good, but mopping function leaves streaks on tile floors.",Neutral,2024-02-04
+REV-044,PROD-VACUUM,EcoClean Robot Vacuum,5,"The auto-empty dock is a game changer. Super quiet operation and easy scheduling via the app.",Positive,2024-02-11
+REV-045,PROD-VACUUM,EcoClean Robot Vacuum,2,"Battery degrades quickly after 3 months. Only cleans half the apartment before needing a recharge.",Negative,2024-02-20
+REV-046,PROD-VACUUM,EcoClean Robot Vacuum,4,"Solid suction power and picks up pet hair effortlessly. Dustbin is slightly small.",Positive,2024-02-28
+REV-047,PROD-VACUUM,EcoClean Robot Vacuum,1,"Motor burned out after 45 days. Customer service was non-responsive and gave generic bot answers.",Negative,2024-03-05
+REV-048,PROD-VACUUM,EcoClean Robot Vacuum,3,"Navigates well enough, but struggles with thick rugs. Decent for general maintenance cleaning.",Neutral,2024-03-11
+REV-049,PROD-VACUUM,EcoClean Robot Vacuum,5,"Excellent LIDAR sensor and boundary setting. My house has never been cleaner. 10/10 purchase.",Positive,2024-03-15
+REV-050,PROD-VACUUM,EcoClean Robot Vacuum,2,"App requires too many invasive permissions and fails to save multi-floor maps.",Negative,2024-03-18

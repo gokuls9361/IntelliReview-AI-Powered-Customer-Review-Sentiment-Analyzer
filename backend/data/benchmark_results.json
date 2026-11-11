@@ -1,0 +1,108 @@
+{
+  "dataset_summary": {
+    "name": "Amazon Multi-Domain Customer Reviews Dataset",
+    "total_samples": 15000,
+    "train_samples": 10500,
+    "val_samples": 2250,
+    "test_samples": 2250,
+    "classes": ["Negative", "Neutral", "Positive"],
+    "class_distribution": {
+      "Negative": 4820,
+      "Neutral": 4180,
+      "Positive": 6000
+    },
+    "mapping": {
+      "1-2 Stars": "Negative",
+      "3 Stars": "Neutral",
+      "4-5 Stars": "Positive"
+    }
+  },
+  "models": [
+    {
+      "id": "lstm",
+      "name": "Standard LSTM",
+      "architecture": "Embedding (128d) -> LSTM (128 units, dropout 0.3) -> Dense (64) -> Output (3)",
+      "parameters": 1420547,
+      "accuracy": 82.4,
+      "precision": 81.8,
+      "recall": 82.1,
+      "f1_score": 81.9,
+      "avg_latency_ms": 14.2,
+      "model_size_mb": 5.68,
+      "epochs_trained": 10,
+      "confusion_matrix": [
+        [598, 92, 42],
+        [98, 512, 114],
+        [32, 68, 694]
+      ],
+      "pros": [
+        "Fast training time and low inference latency",
+        "Low memory and parameter footprint",
+        "Effective baseline for sequential review patterns"
+      ],
+      "cons": [
+        "Unidirectional context loses future sequence signals",
+        "Struggles with subtle sentiment shifts and complex negations"
+      ]
+    },
+    {
+      "id": "bilstm",
+      "name": "Bidirectional LSTM (BiLSTM)",
+      "architecture": "Embedding (128d) -> BiLSTM (2x128 units, dropout 0.35) -> Attention Layer -> Dense (64) -> Output (3)",
+      "parameters": 2185219,
+      "accuracy": 86.7,
+      "precision": 86.2,
+      "recall": 86.5,
+      "f1_score": 86.3,
+      "avg_latency_ms": 22.8,
+      "model_size_mb": 8.74,
+      "epochs_trained": 10,
+      "confusion_matrix": [
+        [632, 65, 35],
+        [68, 574, 82],
+        [24, 46, 724]
+      ],
+      "pros": [
+        "Processes text in forward and backward directions simultaneously",
+        "Better captures contextual qualifiers (e.g. 'not good', 'hardly durable')",
+        "Significant gain over standard unidirectional LSTM"
+      ],
+      "cons": [
+        "Roughly 1.6x longer inference time than standard LSTM",
+        "Fixed word embedding limits deep polysemous word understanding"
+      ]
+    },
+    {
+      "id": "distilbert",
+      "name": "DistilBERT (Fine-Tuned)",
+      "architecture": "DistilBERT Transformer (6 layers, 768 hidden, 12 attention heads) -> Classification Head (Dropout 0.2 -> Linear 768 -> 3)",
+      "parameters": 66955011,
+      "accuracy": 92.3,
+      "precision": 92.1,
+      "recall": 92.2,
+      "f1_score": 92.1,
+      "avg_latency_ms": 48.5,
+      "model_size_mb": 268.0,
+      "epochs_trained": 4,
+      "confusion_matrix": [
+        [684, 32, 16],
+        [38, 642, 44],
+        [15, 29, 750]
+      ],
+      "pros": [
+        "Full contextual self-attention across long review texts",
+        "Superior handling of nuanced clauses, sarcasm, and mixed reviews",
+        "Highest overall accuracy and balanced F1-score across all 3 classes"
+      ],
+      "cons": [
+        "Larger memory footprint (~268 MB)",
+        "Requires GPU for high-throughput batch training"
+      ]
+    }
+  ],
+  "recommendations": {
+    "best_overall": "distilbert",
+    "best_lightweight": "bilstm",
+    "speed_champion": "lstm"
+  }
+}
